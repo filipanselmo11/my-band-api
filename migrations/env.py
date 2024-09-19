@@ -6,6 +6,7 @@ from sqlalchemy import pool
 from alembic import context
 from app.shared.database import Base
 from app.models.band_model import BandModel
+from app.models.music_model import MusicModel
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
